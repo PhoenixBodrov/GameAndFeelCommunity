@@ -1,0 +1,11 @@
+name: Feature request
+description: Suggest an improvement
+title: "Idea: "
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to add?
+      description: Include the pack name and what the feature would improve.
+    validations:
+      required: true

@@ -1,0 +1,28 @@
+name: Bug report
+description: Quickly report a problem
+title: "Bug: "
+body:
+  - type: dropdown
+    id: pack
+    attributes:
+      label: Pack
+      options:
+        - Minecraft Steampunk 1.3
+        - Minecraft Steampunk
+        - Minecraft AI
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the problem and how to reproduce it. Add your release version if known.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Optional. Drag files here after removing private details.
+    validations:
+      required: false
